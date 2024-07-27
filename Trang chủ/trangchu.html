@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop Online</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="D:\Win\Cuối khóa 1\Đăng nhập\dangnhap.html" class="header-item">Login</a>
+        <img class="header-item-2"
+            src="https://salt.tikicdn.com/ts/upload/51/e2/92/8ca7e2cc5ede8c09e34d1beb50267f4f.png" alt="">
+        <a href="D:\Win\Cuối khóa 1\Giỏ hàng\giohang.html" class="header-item">Cart</a>
+        <a href="" class="header-item">Type</a>
+        <a href="" class="header-item">Propose</a>
+        <a href="D:\Win\Cuối khóa 1\Trang chủ\trangchu.html" class="header-item">Home</a>
+        <form action="">
+            <div>
+               <div>hello</div>
+
+                <input class="header-item-1" type="text" placeholder="Tìm kiếm">
+            </div>
+        </form>
+        <img class="logo" src="logo.png" alt="" width="70px" height="50px">
+    </div>
+    <div class="home">
+        <div>
+            <img src="fahasa.jpg" class="slider" alt="Ảnh lỗi" width="100%" height="500px">
+            <img src="shopee.png" class="slider" alt="Ảnh lỗi" width="100%" height="500px">
+            <img src="tiki.jpeg" class="slider" alt="Ảnh lỗi" width="100%" height="500px">
+        </div>
+        <div class="body1">
+            Khám phá cùng Book Shop
+            <div class="body1-1">
+                <a class="link">
+                    <div class="body1-2">
+                        <div class="img">
+                            <img class="img" src="sachtienganh.jpg" alt="">
+                        </div>
+                        Sách Tiếng Anh
+                    </div>
+                </a>
+                <a class="link" href="">
+                    <div class="body1-3">
+                        <div class="img">
+                            <img class="img" src="sachtiengviet.jpg" alt="">
+                        </div>
+                        Sánh Tiếng Việt
+                    </div>
+                </a>
+                <a class="link" href="">
+                    <div class="body1-4">
+                        <div class="img">
+                            <img class="img" src="tieuthuyet.png" alt="">
+                        </div>
+                        Tiểu Thuyết
+                    </div>
+                </a>
+                <a class="link" href="">
+                    <div class="body1-5">
+                        <div class="img">
+                            <img class="img" src="truyentranh.webp" alt="">
+                        </div>
+                        Truyện Tranh
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div>
+            <img src="https://salt.tikicdn.com/ts/brickv2og/37/0e/82/52fbb44e96c8808a657a27244ff194c5.png" class="siure"
+                alt="badge" width="191" height="24">
+        </div>
+        <div class="banhang">
+
+            <div class="card">
+                <img src="photo1.jpg" alt="" style="width:100%">
+                <p><img srcset="https://salt.tikicdn.com/ts/tka/69/cf/22/1be823299ae34c7ddcd922e73abd4909.png"
+                        width="89" height="20" alt="authentic_brand" class="styles__StyledImg-sc-p9s3t3-0 hbqSye"
+                        style="width: 89px; height: 20px; opacity: 1;"></p>
+                <p class="price">29.000đ</p>
+                <p>Sách giáo khoa Toán 11- tập một- Chân Trời Sáng Tạo</p>
+                <p><button onclick="clickcart()">Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="photo2.jpg" alt="" style="width:100%">
+                <p><img srcset="https://salt.tikicdn.com/ts/tka/69/cf/22/1be823299ae34c7ddcd922e73abd4909.png"
+                        width="89" height="20" alt="authentic_brand" class="styles__StyledImg-sc-p9s3t3-0 hbqSye"
+                        style="width: 89px; height: 20px; opacity: 1;"></p>
+                <p class="price">22.000đ</p>
+                <p>Sách giáo khoa Toán 11- tập hai- Chân Trời Sáng Tạo</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="photo3.jpg" alt="" style="width:100%">
+                <p><img srcset="https://salt.tikicdn.com/ts/tka/69/cf/22/1be823299ae34c7ddcd922e73abd4909.png"
+                        width="89" height="20" alt="authentic_brand" class="styles__StyledImg-sc-p9s3t3-0 hbqSye"
+                        style="width: 89px; height: 20px; opacity: 1;"></p>
+                <p class="price">26.000đ</p>
+                <p>Sách giáo khoa Hóa Học 11- Chân Trời Sáng Tạo</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="photo4.jpg" alt="" style="width:100%">
+                <p><img srcset="https://salt.tikicdn.com/ts/tka/69/cf/22/1be823299ae34c7ddcd922e73abd4909.png"
+                        width="89" height="20" alt="authentic_brand" class="styles__StyledImg-sc-p9s3t3-0 hbqSye"
+                        style="width: 89px; height: 20px; opacity: 1;"></p>
+                <p class="price">25.000đ</p>
+                <p>Sách giáo khoa Vật Lý 11- Chân Trời Sáng Tạo</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="photo5.jpg" alt="" style="width:100%">
+                <img srcset="https://salt.tikicdn.com/ts/tka/69/cf/22/1be823299ae34c7ddcd922e73abd4909.png" width="89"
+                    height="20" alt="authentic_brand" class="styles__StyledImg-sc-p9s3t3-0 hbqSye"
+                    style="width: 89px; height: 20px; opacity: 1;">
+                <p class="price">35.000đ</p>
+                <p>Sách giáo khoa Sinh Học 11- Chân Trời Sáng Tạo</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="photo6.jpg" alt="" style="width:100%">
+                <img srcset="https://salt.tikicdn.com/ts/tka/69/cf/22/1be823299ae34c7ddcd922e73abd4909.png" width="89"
+                    height="20" alt="authentic_brand" class="styles__StyledImg-sc-p9s3t3-0 hbqSye"
+                    style="width: 89px; height: 20px; opacity: 1;">
+                <p class="price">25.000đ</p>
+                <p>Sách giáo khoa Toán 11- Cánh Diều</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="photo7.jpg" alt="" style="width:100%">
+                <img srcset="https://salt.tikicdn.com/ts/tka/69/cf/22/1be823299ae34c7ddcd922e73abd4909.png" width="89"
+                    height="20" alt="authentic_brand" class="styles__StyledImg-sc-p9s3t3-0 hbqSye"
+                    style="width: 89px; height: 20px; opacity: 1;">
+                <p class="price">39.000đ</p>
+                <p>Sách giáo khoa Toán 11- Kết Nối Tri Thức Với Cuộc Sống</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="photo8.jpg" alt="" style="width:100%">
+                <img srcset="https://salt.tikicdn.com/ts/tka/69/cf/22/1be823299ae34c7ddcd922e73abd4909.png" width="89"
+                    height="20" alt="authentic_brand" class="styles__StyledImg-sc-p9s3t3-0 hbqSye"
+                    style="width: 89px; height: 20px; opacity: 1;">
+                <p class="price">33.000đ</p>
+                <p>Sách giáo khoa Chuyên Đề Toán 11- Cánh Diều</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+        </div>
+        <div class="end">
+            <div class="bar">
+                <a href="#" class="bar-items">«</a>
+                <a href="#" class="bar-items highlight">1</a>
+                <a href="#" class="bar-items">2</a>
+                <a href="#" class="bar-items">3</a>
+                <a href="#" class="bar-items">4</a>
+                <a href="#" class="bar-items">»</a>
+            </div>
+
+        </div>
+        <hr>
+        <div class="footer">
+            <h4>Footer</h4>
+            <p>Liên hệ sđt: 0938495832</p>
+            <p>Địa chỉ: 122, TL15, Huyện Củ Chi, TP.HCM</p>
+        </div>
+        <script>
+            w3.slideshow(".slider", 2000);
+            function clickcart(params) {
+                window.location.href="file:///D:/Win/Cu%E1%BB%91i%20kh%C3%B3a%201/B%C3%A1n%20h%C3%A0ng/S%E1%BA%A3n%20ph%E1%BA%A9m%201/sanpham1.html";
+            }
+        </script>
+</body>
+
+</html>

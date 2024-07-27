@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    max-width: 990px;
+    margin: auto;
+}
+
+.main {
+    max-width: 980px;
+    margin: auto;
+
+}
+
+.header {
+    text-align: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+
+    background-color: aqua;
+    color: aliceblue
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-item-2 {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 12px;
+    padding: 5px;
+}
+
+.header-item {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header-item-1 {
+    margin-top: 13px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.hinh1 {
+
+    padding: 30px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.thongtin1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.ten1 {
+    padding-top: 50px;
+}
+
+.ten1-1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sao1 {
+    font-size: 20px;
+    margin-right: 5px;
+    padding-bottom: 1px;
+    border: none;
+    color: red;
+
+}
+
+.gia1 {
+    border-bottom-color: red;
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.vanchuyen {
+    width: 110px;
+}
+
+.xe {
+    padding-left: 25px;
+}
+
+.Ship {
+    padding-left: 25px;
+}
+
+.vanchuyen1 {
+    display: flex;
+}
+
+.vanchuyen2 {
+    display: flex;
+}
+
+.input {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: azure;
+    outline: none;
+    padding: 8px;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.vanchuyentoi {
+    padding-right: 20px;
+}
+
+.soluong {
+    padding-right: 50px;
+}
+
+.tongsoluong {
+    display: flex;
+}
+
+.dem {
+    padding-top: 20px;
+}
+.nut{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.nut1 {
+    width: 200px;
+    height: 40px;
+    background-color: darkorange;
+    color: whitesmoke;
+    border: none;
+}
+.nut2{
+    margin-left: 30px;
+    width: 200px;
+    height: 40px;
+    background-color:red;
+    color: whitesmoke;
+    border: none;
+    
+}

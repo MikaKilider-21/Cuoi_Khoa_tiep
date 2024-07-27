@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sách-Sách giáo khoa Toán 11- tập một- Chân Trời Sáng Tạo</title>
+    <link rel="stylesheet" href="sanpham1.css">
+</head>
+
+<body>
+    <div class="header">
+        <a href="D:\Win\Cuối khóa 1\Đăng nhập\dangnhap.html" class="header-item">Login</a>
+        <img class="header-item-2"
+            src="https://salt.tikicdn.com/ts/upload/51/e2/92/8ca7e2cc5ede8c09e34d1beb50267f4f.png" alt="">
+        <a href="D:\Win\Cuối khóa 1\Giỏ hàng\giohang.html" class="header-item">Cart</a>
+        <a href="" class="header-item">Type</a>
+        <a href="" class="header-item">Propose</a>
+        <a href="D:\Win\Cuối khóa 1\Trang chủ\trangchu.html" class="header-item">Home</a>
+        <form action="">
+            <div>
+
+                <input class="header-item-1" type="text" placeholder="Tìm kiếm">
+            </div>
+        </form>
+        <img class="logo" src="logo.png" alt="" width="70px" height="50px">
+    </div>
+    <div class="home">
+        <div class="thongtin1">
+            <div class="hinh1">
+                <img class="" src="photo1.jpg" alt="Sách giáo khoa Toán 11- tập một- Chân Trời Sáng Tạo">
+            </div>
+            <div class="ten1">
+                <div>
+                    <span class="ten1-1">Sách-Sách giáo khoa Toán 11- tập một- Chân Trời Sáng Tạo</span>
+                </div>
+                <div>
+                    <div class="sao1">4.8</div>
+                </div>
+                <div style="margin-top:10px">
+                    <div>
+                        <p class="gia1">
+                            29.000 VNĐ
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="vanchuyen">Vận chuyển</h3>
+
+                    <div class="vanchuyen1">
+                        <img class="Ship" src="d9e992985b18d96aab90.png" alt="Ship" height="22px" width="22px">
+                        <p>Miễn phí vận chuyển(VIP recharge)</p>
+                    </div>
+                    <div class="vanchuyen2">
+                        <img class="xe" src="xe.svg" alt="" height="22px">
+                        <p class="vanchuyentoi">Vận chuyển tới</p>
+                        <input class="input" type="text">
+
+                    </div>
+                </div>
+                <div class="tongsoluong">
+                    <h3 class="soluong">Số lượng</h3>
+                    <div class="dem">
+                        <div>
+                            <button onclick="tru()" id="am">-</button>
+                            <button id="so">1</button>
+                            <button onclick="cong()" id="duong">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="nut">
+                    <button class="nut1">Thêm vào Cart</button>
+                    <button class="nut2">Mua</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let a = 0
+        let b = document.getElementById("so")
+        b.innerText = a
+        function tru() {
+
+            a--;
+            b.innerText = a
+        }
+        function cong() {
+
+            a++;
+            b.innerText = a
+        }
+
+    </script>
+</body>
+
+</html>
